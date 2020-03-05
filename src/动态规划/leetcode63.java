@@ -1,5 +1,10 @@
 package 动态规划;
 
+/**
+ *
+ * 解题思路：动态规划  dp二维数组记录运动到原始数组每个位置路径数目，若原始数组某位置为1，dp数组中该位置为0，否组为
+ * dp[i][j] = dp[i-1][j]+dp[i][j-1]
+ */
 public class leetcode63 {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
 
