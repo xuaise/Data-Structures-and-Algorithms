@@ -1,8 +1,10 @@
 package 动态规划;
 
+import java.util.Stack;
+
 public class leetcode85 {
     public int maxwidth(int[] heights) {
-        Stack < Integer > stack = new Stack < > ();
+        Stack< Integer > stack = new Stack < > ();
         stack.push(-1);
         int maxarea = 0;
         for (int i = 0; i < heights.length; ++i) {
