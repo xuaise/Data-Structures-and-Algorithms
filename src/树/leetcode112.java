@@ -10,4 +10,5 @@ public class leetcode112 {
             return (sum == 0);
         return hasPathSum(root.left, sum) || hasPathSum(root.right, sum);
     }
+
 }
