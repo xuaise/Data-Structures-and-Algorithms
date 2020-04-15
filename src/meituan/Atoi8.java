@@ -1,6 +1,6 @@
 package meituan;
 
-public class Atoi {
+public class Atoi8 {
     public int myAtoi(String str){
         str = str.trim();
         int res = 0;

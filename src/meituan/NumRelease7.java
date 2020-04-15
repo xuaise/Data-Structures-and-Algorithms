@@ -1,6 +1,6 @@
 package meituan;
 
-public class NumRelease {
+public class NumRelease7 {
     public int reverse(int x) {
        int recv = 0;
        while (x!=0){
